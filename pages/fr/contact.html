@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Maison</a></li>
+            <li><a href="about.html">À propos de nous</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <p>Si vous avez des questions ou souhaitez simplement nous dire bonjour, n'hésitez pas à remplir le formulaire ci-dessous.</p>
+    <form action="/submit_contact" method="post">
+        <label for="name">Nom:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Soumettre">
+    </form>
+</body>
+</html>

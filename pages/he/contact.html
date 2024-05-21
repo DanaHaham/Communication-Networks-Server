@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>צור קשר</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">בית</a></li>
+            <li><a href="about.html">אודות</a></li>
+            <li><a href="contact.html">צור קשר</a></li>
+        </ul>
+    </nav>
+    <p>אם יש לך שאלות או סתם רוצה לומר שלום, מלא/י את הטופס למטה</p>
+    <form action="/submit_contact" method="post">
+        <label for="name">שם:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">מייל:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">הודעה:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="שליחה">
+    </form>
+</body>
+</html>
